@@ -26,3 +26,72 @@
 .contenteBlk > a{
     margin-top: 20px;
 }
+
+
+
+
+
+
+
+
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .ContentSection{
+        padding: 150px 0;
+        margin: 100px 0; 
+    }
+    .ContentSection > img { 
+        max-width: 60%;
+    }
+
+
+
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .ContentSection{
+        padding: 0px 0;
+        margin: 100px 0; 
+    }
+    .ContentSection > img { 
+        max-width: 60%;
+    }
+    .ContentSection h1{
+        margin-bottom: 40px;
+    }
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .ContentSection{
+        padding:100px 0; 
+    }
+    .ContentSection > img { 
+        max-width: 90%;
+        opacity: .3;
+    }
+
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .ContentSection{
+        padding:0px 0; 
+    }
+    .ContentSection > img { 
+        position: unset; 
+        margin-bottom: 40px;
+    }
+
+ 
+}
+  

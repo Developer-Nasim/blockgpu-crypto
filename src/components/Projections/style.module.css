@@ -1,15 +1,60 @@
 .ProBlk{
     text-align: center;
-    padding: 50px;
+    padding: 40px;
     border: 5px solid #6bff91;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    min-height: 310px;
+    min-height: 316px;
 }
 .ProBlk h4 {
     margin-bottom: 30px;
 }
  
+
+
+
+
+
+
+
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .ProBlk{ 
+        min-height: auto;
+        margin-bottom: 30px;
+    }
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .ProBlk{ 
+        min-height: auto;
+        margin-bottom: 30px;
+    }
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}

@@ -9,19 +9,19 @@ export default function Features() {
     <section className={styles.features_area}>
         <div className="container">
             <div className="row">  
-                <div className="col-lg-4">
+                <div className="col-lg-4 col-md-6">
                     <FeatureBlk img={Icon}>
                         <h4>Unlock New Earning Potential</h4>
                         <p>Maximize the potential of your gaming rig with BlockGPU, an innovative platform that fuses GameFi, distributed computing, and AI, opening new avenues for earnings in the gaming and blockchain world.</p>
                     </FeatureBlk>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-4 col-md-6">
                     <FeatureBlk img={Icon2}>
                         <h4>Harness GPU Potential</h4>
                         <p>Maximize the potential of your gaming rig with BlockGPU, an innovative platform that fuses GameFi, distributed computing, and AI, opening new avenues for earnings in the gaming and blockchain world.</p>
                     </FeatureBlk>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-4 col-md-6">
                     <FeatureBlk img={Icon3}>
                         <h4>Fully Customizable</h4>
                         <p>Maximize the potential of your gaming rig with BlockGPU, an innovative platform that fuses GameFi, distributed computing, and AI, opening new avenues for earnings in the gaming and blockchain world.</p>

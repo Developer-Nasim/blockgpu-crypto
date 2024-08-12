@@ -6,3 +6,41 @@
 .heading span{
     color: #6cff91;
 }
+
+
+
+
+
+
+
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .heading{ 
+        font-size: 48px; 
+    }
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .heading{ 
+        font-size: 24px;  
+    }
+ 
+}
+  

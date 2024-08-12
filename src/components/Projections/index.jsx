@@ -7,7 +7,7 @@ export default function Projections() {
     <section className={styles.projections_area}>
         <div className="container">
             <div className="row">  
-                <div className="col-lg-8 offset-lg-2">
+                <div className="col-lg-10 offset-lg-1">
                     <div className="project-title">
                         <Heading><span>Market Growth Projections</span></Heading>
                         <p>The integration of gaming, blockchain, and AI through platforms like BlockGPU aligns perfectly with the projected growth in these sectors. The blockchain market is expected to expand to $94 billion by 2027, reflecting a significant opportunity for decentralized platforms. With 3.22 billion gamers worldwide, the potential user base is immense. The GPU market, crucial for both gaming and AI tasks, is anticipated to reach $773.07 billion by 2032. Additionally, the AI market is forecasted to grow to $667.96 billion by 2030. The esports industry is also projected to generate over $1.5 billion in revenue by 2025, highlighting the increasing popularity and economic impact of competitive gaming. BlockGPU is positioned at the intersection of these rapidly growing markets, offering gamers new financial opportunities through innovative technology.</p>

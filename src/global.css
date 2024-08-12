@@ -101,7 +101,7 @@ li {
   line-height: auto;
  }
 .container{
-  max-width: 1600px;
+  max-width: 1400px;
 }
 p{
   line-height: 1.6rem;
@@ -181,6 +181,7 @@ footer h5 {
 
 
 
+ 
 
 
 
@@ -191,48 +192,53 @@ footer h5 {
 
 
 
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1400px) {
+  header {
+    padding: 30px 0;
+}
+
+}
 
 
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+  header {
+    padding: 30px 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
  
-/* humbergar */
-.bar a {
-  width: 35px;
-  height: 35px;
-  float: right;
-  position: relative;
-} 
-.bar a span {
-  width: 100%;
-  height: 3px;
-  background: #fff;
-  display: block;
-  position: relative;
-  top: 17px;
-  border-radius: 30px;
-  transition: .3s;
-} 
-.bar a span:before {left: 0;content: "";position: absolute;width: 100%;height: 100%;background: #fff;bottom: 10px;border-radius: 30px;transition: .3s;} 
-.bar a span:after {left: 0;content: "";position: absolute;width: 100%;height: 100%;background: #fff;bottom: -10px;border-radius: 30px;transition: .3s;}
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  header {
+    padding: 30px 0;
+}
+
+}
+
  
-/* humbarger END */
+/* small screen :320px. */
+@media (max-width: 767px) {
+  footer {
+    text-align: center;
+    margin-top: 70px;
+    padding-bottom: 25px;
+  }
+  header {
+    padding: 30px 0;
+}
+img.topBg { 
+  top: 5%; 
+  max-width: 100%;   
+}
+
+
+
+}
   
+
 
 
 

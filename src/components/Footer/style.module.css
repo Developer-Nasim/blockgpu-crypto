@@ -12,3 +12,24 @@
     font-size: 16px;
   }
   
+
+
+
+
+
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+
+  .footer_wrap h5 {
+    font-size: 15px;
+    overflow-wrap: break-word;
+    line-height: 1.6rem;
+  }
+  .footer_wrap .social_medias { 
+    margin: 30px 0;
+  }
+ 
+}
+  
