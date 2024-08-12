@@ -1,6 +1,6 @@
 import Tw from '/imgs/twitter.png'
 import Xsol from '/imgs/x.png'
-import Medium from '/imgs/twitter.png'
+import Medium from '/imgs/medium.png'
 import Teligram from '/imgs/teligram.png'
 import LinkTag from './Linktag'
 
