@@ -1,0 +1,28 @@
+.copyAddress{
+    display: flex;
+    border: 1px solid #6cff92;
+    max-width: 500px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.copyAddress button {
+    background: #6cff92;
+    padding: 7px 15px;
+    color: #000;
+    letter-spacing: 2px;
+}
+
+.copyAddress input {
+    width: 100%;
+    font-size: 85%;
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    pointer-events: none;
+    padding: 0 15px;
+    letter-spacing: 0.25em;
+}
+
+
+

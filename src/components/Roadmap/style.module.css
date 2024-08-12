@@ -1,0 +1,31 @@
+.all_content_block > div {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.all_content_block > div h4 {
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.all_content_block > div h5 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.all_content_block > div ul {
+    display: flex;
+    margin: 25px 0;
+    flex-direction: column;
+    gap: 10px;
+}
+.allPhase{
+    gap: 25px ! IMPORTANT;
+}
+.allPhase li {
+    line-height: 20.8px;
+}
+.roadmap_title > h1{
+    padding: 0px 0px 30px 50px;
+}

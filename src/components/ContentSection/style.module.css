@@ -1,0 +1,28 @@
+.ContentSection{
+    padding: 200px 0;
+    margin: 100px 0;
+    position: relative;
+    z-index: 2;
+}
+
+.ContentSection > img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+
+}
+.ContentSection h1{
+    margin-bottom: 30px;
+}
+.contenteBlk ul li{
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.contenteBlk ul {
+    margin-top: 25px;
+}
+.contenteBlk > a{
+    margin-top: 20px;
+}

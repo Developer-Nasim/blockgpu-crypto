@@ -1,0 +1,10 @@
+.flogo a,.logo a{
+    display: inline-block;
+    margin: auto;
+}
+.logo a{
+    display: block;
+    max-width: 210px;
+    margin: auto;
+    text-align: center;
+}
