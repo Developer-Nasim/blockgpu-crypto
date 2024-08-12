@@ -1,7 +1,7 @@
 /*   Theme default css */ 
 @font-face {
   font-family: "DespairTime";
-  src: url(DespairTimeStraight.otf);
+  src: url(https://raw.githubusercontent.com/Developer-Nasim/webfonts/main/DespairTimeStraight.otf);
   font-weight: normal;
 }
 body {
